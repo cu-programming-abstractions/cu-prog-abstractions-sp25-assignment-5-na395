@@ -1,26 +1,23 @@
 Q1:
 
-
+As as the load factor α increases there are more slots to check, therefore it needs more time.
 
 
 Q2:
 
-
+unsuccessful lookups slow down at a greater rate as the load factor α increases.
 
 
 Q3:
 
-
+Successful deletions and lookups both stop when they find the key, so they take about the same time. Unsuccessful deletions and lookups both keep going until they find an empty spot. So both pairs slow down in the same way as the load factor α increases.
 
 
 Q4:
 
-
+Waste of memory.
 
 
 Q5:
 
-
-
-
-
+Linear Probing hashing with load factor of α = 0.5 is the best in terms of speed and balance.
